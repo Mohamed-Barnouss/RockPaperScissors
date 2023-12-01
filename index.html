@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="title">Rock Paper Scissor</h1>
+
+      <div class="boxes">
+        <div class="player-section">
+          <h2>Chose one:</h2>
+          <div class="btn-list">
+            <button class="element rock" value="rock">
+              <img src="/img/photo-rock.png" alt="rock" />
+            </button>
+            <button class="element scissor" value="scissor">
+              <img src="/img/photo-scissor.png" alt="scissor" />
+            </button>
+            <button class="element paper" value="paper">
+              <img src="/img/photo-paper.png" alt="paper" />
+            </button>
+          </div>
+        </div>
+        <p class="results"></p>
+      </div>
+      <div class="visuals-section">
+        <div class="img-box">
+          <img
+            src="/img/photo-rock.png"
+            alt="chosen option"
+            class="chosen-option"
+          />
+        </div>
+        <div class="img-box pc-box">
+          <img src="/img/photo-rock.png" alt="pc option" class="pc-option" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
